@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{.crimson-text-semibold {
+        font-family: "Crimson Text", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .crimson-text-bold {
+        font-family: "Crimson Text", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .crimson-text-regular-italic {
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .crimson-text-semibold-italic {
+        font-family: "Crimson Text", serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .crimson-text-bold-italic {
+        font-family: "Crimson Text", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      background-image:url(img/Free-Wooden-Background-For-You.jpg) ;
+      
+      
+    }
+.heading{
+    
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.box-one{
+    background-color:black;
+    color:yellow;
+    width: 25%;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+.box-one button{
+    background-color: red;
+    color: yellow;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+
+.icon{
+background-color: red;
+color: whitesmoke;
+border-radius: 100%;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+padding-right: 20px;
+font-size: 30px;
+border: none;
+bottom: 60px;
+right: 30px;
+position: fixed;
+}
+.overlay
+{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    
+    
+    
+}
+.inner-container{
+    background-color: rgb(176, 223, 250);
+    color: black;
+    width: 40%;
+    padding: 40px;
+    border-radius: 30px;
+    left: 30%;
+    top: 20%;
+    position: absolute;
+    display: none;
+
+
+}
+.inner-container input{
+  background-color: transparent;
+  border: none;
+  border-bottom: solid black 2px;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.inner-container textarea{
+  background-color: transparent;
+  
+  border: solid rgba(0, 0, 0, 0.822) 2px;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+.inner-container input::placeholder{
+  color: rgba(0, 0, 0, 0.664);
+}
+.inner-container textarea::placeholder{
+  color: rgba(0, 0, 0, 0.692);
+}
+.inner-container button{
+  color: whitesmoke;
+  background-color: black;
+  border-radius: 10%;
+  padding: 10px;
+  margin:1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.inner-container input:focus{
+  outline: none;
+}
+.inner-container textarea:focus{
+  outline: none;
+}

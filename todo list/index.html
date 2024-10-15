@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TODO LIST</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link
+            href="data:image/jpeg;base64,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"
+            rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="heading">
+            <h1>TOJO LIST</h1>
+        </div>
+        <div class=box>
+            <div class="box-one">
+                <h1 style="font-size: 30px;color:rgb(250, 0, 0)">Rich Dad Poor Dad</h1>
+                <h3>Tony</h3>
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nostrum
+                    asperiores reiciendis ab ullam blanditiis tempore natus
+                    incidunt
+                    ex reprehenderit rem quam ad aut perferendis, aliquam eaque
+                    pariatur commodi optio quaerat.</p>
+                <button onclick="deleteup(event)">delete</button>
+
+            </div>
+            
+        </div>
+
+        <button class="icon" id="pop-up">+</button>
+        <div class="overlay"></div>
+        <div class="inner-container">
+            <h2> ADD BOOK</h2>
+            <form>
+                <input type="text" placeholder="book name"
+                    id="book-title-input">
+                <input type="text" placeholder="book author"
+                    id="book-name-input">
+                <textarea type="text" placeholder="description"
+                    id="book-description-input"></textarea>
+                <button id="add-book">ADD</button>
+                <button id="cancel-book">CANCEL</button>
+            </form>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html> 
+
